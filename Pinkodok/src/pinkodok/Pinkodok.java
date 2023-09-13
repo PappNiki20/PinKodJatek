@@ -7,6 +7,7 @@ public class Pinkodok {
     public static void main(String[] args) {
         String megjegyzett = bekeres();
         belepes(megjegyzett);
+        keveres();
     }
 
     private static String bekeres() {
@@ -54,4 +55,9 @@ public class Pinkodok {
             System.out.println(siker);
         }
     }
+
+    private static void keveres() {
+        int[] kevert = {2,5,8,0,1,3,4,6,7,3};
+    }
+    
 }
